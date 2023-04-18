@@ -42,19 +42,8 @@
   color: #f1f5f9;
   cursor: pointer;
 }
-.bold-active {
-  background-color: transparent;
-  border: 0px none;
-  color: #faff00;
-}
 
-.italic-active {
-  background-color: transparent;
-  border: 0px none;
-  color: #faff00;
-}
-
-.underline-active {
+.active-icon {
   background-color: transparent;
   border: 0px none;
   color: #faff00;

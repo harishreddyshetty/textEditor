@@ -22,9 +22,9 @@ class TextEditor extends Component {
   render() {
     const {bold, italic, underline} = this.state
 
-    const boldClass = bold ? 'bold-active' : 'btns'
-    const italicClass = italic ? 'italic-active' : 'btns'
-    const underlineClass = underline ? 'underline-active' : 'btns'
+    const boldClass = bold ? 'active-icon' : 'btns'
+    const italicClass = italic ? 'active-icon' : 'btns'
+    const underlineClass = underline ? 'active-icon' : 'btns'
 
     const textClass = bold && 'text-bold'
     const italicText = italic && 'text-italic'
