@@ -1,0 +1,82 @@
+.editor-bg {
+  height: 100vh;
+  background-color: #25262c;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  margin-right: 30px;
+}
+.textEditor-container {
+  background-color: #1b1c22;
+  display: flex;
+  padding: 15px;
+  width: 80vw;
+}
+
+.textEditor {
+  border: 1px solid #334155;
+  border-radius: 10px;
+  width: 40vw;
+}
+
+.line {
+  border: 1px solid #334155;
+}
+.btns-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.btns {
+  background-color: transparent;
+  border: 0px none;
+  color: #f1f5f9;
+  cursor: pointer;
+}
+.bold-active {
+  background-color: transparent;
+  border: 0px none;
+  color: #faff00;
+}
+
+.italic-active {
+  background-color: transparent;
+  border: 0px none;
+  color: #faff00;
+}
+
+.underline-active {
+  background-color: transparent;
+  border: 0px none;
+  color: #faff00;
+}
+
+.input {
+  outline: none;
+  background-color: transparent;
+  border: 0px none;
+  color: #f8fafc;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
